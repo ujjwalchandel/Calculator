@@ -3,14 +3,41 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
+
+body {
+    background: linear-gradient(to right, #feac5e 0%, #c779d0 100%, #4bc0c8);
+}
+h1{
+    text-decoration: none;
+    box-shadow: 2px 2px 5px #c779d0, -1px -1px 5px #feac5e, inset 1px 1px 5px #feac5e, inset -1px -1px 5px #c779d0;
+}
+#logo {
+    font-family: 'brush script MT', 'cursive';
+    font-size: 900;
+    color:  black;
+    padding: 10px 0px 10px 0px;
+    
+}
 .button{
     padding: 20px;
     margin: 0px 3px;
-    border: 2px solid black;
-    border-radius: 9px;
+    border: none;
+    border-radius: 50% 50%;
     cursor: pointer;
     width: 66px;
+    background: linear-gradient(to right, #feac5e 0%, #c779d0 100%, #4bc0c8);
+    box-shadow: 2px 2px 5px #c779d0, -1px -1px 5px #feac5e, inset 1px 1px 5px #feac5e, inset -1px -1px 5px #c779d0;
 }
+
+.button:active{
+    box-shadow: 4px 4px 2px #c779d0, -1px -1px 5px #feac5e, inset 1px 1px 5px #feac5e, inset -1px -1px 5px #c779d0;
+}
+
+.col-1,
+.col-2 {
+    
+}
+
 
 .row{
     margin: 8px 0px;
@@ -20,6 +47,13 @@
     font-size: 20px;
     margin: 0;
     padding: 11px 34px;
-    border: 2px solid black;
-    border-radius: 9px;
+    border: none;
+    border-radius: 48% 48%;
+    background: linear-gradient(to right, #feac5e 0%, #c779d0 100%, #4bc0c8);
+    box-shadow: 2px 2px 2px #c779d0, -1px -1px 5px #feac5e, inset 1px 1px 5px #feac5e, inset -1px -1px 5px #c779d0;
+    text-align: end;
+}
+
+.row input:active {
+    border: none;
 }
